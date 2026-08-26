@@ -1,0 +1,130 @@
+[
+  {
+    "id": "p1",
+    "name": "Воин",
+    "modifier": 5,
+    "maxHp": 22,
+    "ac": 18,
+    "generateAvatar": true
+  },
+  {
+    "id": "p2",
+    "name": "Клирик",
+    "modifier": 3,
+    "maxHp": 18,
+    "ac": 16,
+    "generateAvatar": true
+  },
+  {
+    "id": "p3",
+    "name": "Маг",
+    "modifier": 2,
+    "maxHp": 12,
+    "ac": 14,
+    "generateAvatar": true
+  },
+  {
+    "id": "p4",
+    "name": "Плут",
+    "modifier": 4,
+    "maxHp": 14,
+    "ac": 17,
+    "generateAvatar": true
+  },
+  {
+    "id": "p5",
+    "name": "Следопыт",
+    "modifier": 4,
+    "maxHp": 16,
+    "ac": 17,
+    "generateAvatar": true
+  },
+  {
+    "id": "p6",
+    "name": "Варвар",
+    "modifier": 3,
+    "maxHp": 24,
+    "ac": 16,
+    "generateAvatar": true
+  },
+  {
+    "id": "p7",
+    "name": "Гоблин",
+    "modifier": 2,
+    "maxHp": 6,
+    "ac": 16,
+    "generateAvatar": true
+  },
+  {
+    "id": "p8",
+    "name": "Орк",
+    "modifier": 1,
+    "maxHp": 12,
+    "ac": 18,
+    "generateAvatar": true
+  },
+  {
+    "id": "p9",
+    "name": "Кобольд",
+    "modifier": 4,
+    "maxHp": 6,
+    "ac": 17,
+    "generateAvatar": true
+  },
+  {
+    "id": "p10",
+    "name": "Скелет",
+    "modifier": 2,
+    "maxHp": 6,
+    "ac": 16,
+    "generateAvatar": true
+  },
+  {
+    "id": "p11",
+    "name": "Зомби",
+    "modifier": -4,
+    "maxHp": 12,
+    "ac": 12,
+    "generateAvatar": true
+  },
+  {
+    "id": "p12",
+    "name": "Волк",
+    "modifier": 4,
+    "maxHp": 13,
+    "ac": 17,
+    "generateAvatar": true
+  },
+  {
+    "id": "p13",
+    "name": "Гигантская крыса",
+    "modifier": 1,
+    "maxHp": 8,
+    "ac": 15,
+    "generateAvatar": true
+  },
+  {
+    "id": "p14",
+    "name": "Бандит",
+    "modifier": 2,
+    "maxHp": 20,
+    "ac": 18,
+    "generateAvatar": true
+  },
+  {
+    "id": "p15",
+    "name": "Огр",
+    "modifier": -1,
+    "maxHp": 44,
+    "ac": 17,
+    "generateAvatar": true
+  },
+  {
+    "id": "p16",
+    "name": "Тролль",
+    "modifier": 1,
+    "maxHp": 50,
+    "ac": 17,
+    "generateAvatar": true
+  }
+]

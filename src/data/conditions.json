@@ -1,0 +1,338 @@
+[
+  {
+    "id": "blinded",
+    "name": "Слеп",
+    "description": "Вы не видите. Все существа для вас необнаружены. Вы застигнуты врасплох, получаете -4 к проверкам Восприятия на поиск и автоматически проваливаете проверки на основе зрения.",
+    "icon": "i-heroicons-eye-slash-20-solid",
+    "color": "error",
+    "hasValue": false
+  },
+  {
+    "id": "broken",
+    "name": "Сломан",
+    "description": "Предмет не может быть использован для своих обычных функций. Для доспеха это состояние снижает бонус к КЗ.",
+    "icon": "i-heroicons-wrench-screwdriver-20-solid",
+    "color": "warning",
+    "hasValue": false
+  },
+  {
+    "id": "clumsy",
+    "name": "Неуклюж",
+    "description": "Штраф состояния к проверкам и СЛ на основе Ловкости (включая КЗ, броски атаки Ловкостью, спасброски Рефлекса и навыки на основе Ловкости).",
+    "icon": "i-heroicons-hand-raised-20-solid",
+    "color": "warning",
+    "hasValue": true
+  },
+  {
+    "id": "concealed",
+    "name": "Скрыт в дымке",
+    "description": "Вас трудно рассмотреть (туман, слабая маскировка). Существа должны пройти проверку плоской вероятности 5, чтобы попасть по вам.",
+    "icon": "i-heroicons-cloud-20-solid",
+    "color": "info",
+    "hasValue": false
+  },
+  {
+    "id": "confused",
+    "name": "Сбит с толку",
+    "description": "Вы не можете различать друзей и врагов. Вы не можете совершать реакции и должны тратить действия на атаку случайного существа или себя.",
+    "icon": "i-heroicons-question-mark-circle-20-solid",
+    "color": "error",
+    "hasValue": false
+  },
+  {
+    "id": "controlled",
+    "name": "Под контролем",
+    "description": "Другое существо определяет ваши действия. Обычно это результат заклинаний или магических эффектов.",
+    "icon": "i-heroicons-user-group-20-solid",
+    "color": "error",
+    "hasValue": false
+  },
+  {
+    "id": "dazzled",
+    "name": "Ослеплен",
+    "description": "Ваше зрение притуплено. Все существа и объекты для вас скрыты.",
+    "icon": "i-heroicons-sun-20-solid",
+    "color": "info",
+    "hasValue": false
+  },
+  {
+    "id": "deafened",
+    "name": "Глух",
+    "description": "Вы не слышите. Вы автоматически проваливаете проверки на основе слуха и имеете шанс 25% провалить действия с дескриптором 'слуховой'.",
+    "icon": "i-heroicons-speaker-x-mark-20-solid",
+    "color": "warning",
+    "hasValue": false
+  },
+  {
+    "id": "doomed",
+    "name": "Обречен",
+    "description": "Ваш предел состояния 'При смерти' уменьшается на значение обреченности. Если предел достигает 0, вы мгновенно погибаете.",
+    "icon": "i-heroicons-scissors-20-solid",
+    "color": "error",
+    "hasValue": true
+  },
+  {
+    "id": "drained",
+    "name": "Истощен",
+    "description": "Штраф состояния к проверкам на основе Телосложения. Ваш текущий и максимальный ОЗ уменьшаются на (уровень * значение).",
+    "icon": "i-heroicons-battery-50-20-solid",
+    "color": "error",
+    "hasValue": true
+  },
+  {
+    "id": "dying",
+    "name": "При смерти",
+    "description": "Вы без сознания и близки к гибели. Если значение достигает 4 (или меньше из-за Обреченности), вы умираете.",
+    "icon": "i-heroicons-heart-20-solid",
+    "color": "error",
+    "hasValue": true
+  },
+  {
+    "id": "encumbered",
+    "name": "Перегружен",
+    "description": "Вы несете слишком много веса. Вы застигнуты врасплох и получаете штраф -10 футов к скорости.",
+    "icon": "i-heroicons-archive-box-20-solid",
+    "color": "warning",
+    "hasValue": false
+  },
+  {
+    "id": "enfeebled",
+    "name": "Ослаблен",
+    "description": "Штраф состояния к проверкам и СЛ на основе Силы (включая броски атаки Силой и урон оружием на основе Силы).",
+    "icon": "i-heroicons-scale-20-solid",
+    "color": "warning",
+    "hasValue": true
+  },
+  {
+    "id": "fascinated",
+    "name": "Заворожен",
+    "description": "Вы сосредоточены на чем-то одном. Вы получаете штраф -2 к Восприятию и навыкам, и не можете совершать действия с дескриптором 'концентрация'.",
+    "icon": "i-heroicons-sparkles-20-solid",
+    "color": "info",
+    "hasValue": false
+  },
+  {
+    "id": "fatigued",
+    "name": "Утомлен",
+    "description": "Вы устали. Вы застигнуты врасплох и получаете штраф -2 к спасброскам. Вы не можете использовать Спешку (Exploration activities).",
+    "icon": "i-heroicons-moon-20-solid",
+    "color": "warning",
+    "hasValue": false
+  },
+  {
+    "id": "fleeing",
+    "name": "Спасающийся бегством",
+    "description": "Вы должны тратить все свои действия, чтобы убежать от источника страха самым быстрым способом.",
+    "icon": "i-heroicons-forward-20-solid",
+    "color": "error",
+    "hasValue": false
+  },
+  {
+    "id": "friendly",
+    "name": "Дружелюбен",
+    "description": "Отношение NPC: существо относится к вам положительно и готово помочь в разумных пределах.",
+    "icon": "i-heroicons-face-smile-20-solid",
+    "color": "success",
+    "hasValue": false
+  },
+  {
+    "id": "frightened",
+    "name": "Напуган",
+    "description": "Штраф состояния ко всем проверкам и СЛ. Значение уменьшается на 1 в конце каждого вашего хода.",
+    "icon": "i-heroicons-face-frown-20-solid",
+    "color": "error",
+    "hasValue": true
+  },
+  {
+    "id": "grabbed",
+    "name": "Схвачен",
+    "description": "Вы застигнуты врасплох и обездвижены. Для действий 'манипуляция' нужна проверка плоской вероятности 5.",
+    "icon": "i-heroicons-hand-thumb-up-20-solid",
+    "color": "warning",
+    "hasValue": false
+  },
+  {
+    "id": "helpful",
+    "name": "Готов помочь",
+    "description": "Отношение NPC: существо готово принять на себя риск, чтобы помочь вам.",
+    "icon": "i-heroicons-heart-20-solid",
+    "color": "success",
+    "hasValue": false
+  },
+  {
+    "id": "hidden",
+    "name": "Скрыт",
+    "description": "Вас нельзя точно увидеть. Противники должны пройти проверку плоской вероятности 11, чтобы попасть по вам.",
+    "icon": "i-heroicons-eye-slash-20-solid",
+    "color": "info",
+    "hasValue": false
+  },
+  {
+    "id": "hostile",
+    "name": "Враждебен",
+    "description": "Отношение NPC: существо активно пытается вам навредить или мешать.",
+    "icon": "i-heroicons-fire-20-solid",
+    "color": "error",
+    "hasValue": false
+  },
+  {
+    "id": "immobilized",
+    "name": "Обездвижен",
+    "description": "Вы не можете совершать действия с дескриптором 'перемещение'.",
+    "icon": "i-heroicons-pause-20-solid",
+    "color": "warning",
+    "hasValue": false
+  },
+  {
+    "id": "indifferent",
+    "name": "Безразличен",
+    "description": "Отношение NPC: существу все равно на вас, это стандартное отношение для незнакомцев.",
+    "icon": "i-heroicons-no-symbol-20-solid",
+    "color": "info",
+    "hasValue": false
+  },
+  {
+    "id": "invisible",
+    "name": "Невидим",
+    "description": "Вас нельзя увидеть. Вы считаетесь необнаруженным для существ, не имеющих других способов восприятия. Вы застигаете врасплох.",
+    "icon": "i-heroicons-sparkles-20-solid",
+    "color": "info",
+    "hasValue": false
+  },
+  {
+    "id": "observed",
+    "name": "Замечен",
+    "description": "Вы находитесь на виду. Это обычное состояние для большинства существ в бою.",
+    "icon": "i-heroicons-eye-20-solid",
+    "color": "success",
+    "hasValue": false
+  },
+  {
+    "id": "off-guard",
+    "name": "Застигнут врасплох",
+    "description": "Вы не можете эффективно защищаться. Штраф обстоятельства -2 к КЗ.",
+    "icon": "i-heroicons-shield-exclamation-20-solid",
+    "color": "warning",
+    "hasValue": false
+  },
+  {
+    "id": "paralyzed",
+    "name": "Парализован",
+    "description": "Вы не можете двигаться. Вы застигнуты врасплох и не можете совершать никаких действий, кроме чисто ментальных.",
+    "icon": "i-heroicons-bolt-slash-20-solid",
+    "color": "error",
+    "hasValue": false
+  },
+  {
+    "id": "persistent-damage",
+    "name": "Периодический урон",
+    "description": "Вы получаете урон в конце каждого своего хода. После получения урона проходите проверку плоской вероятности 15, чтобы избавиться.",
+    "icon": "i-heroicons-clock-20-solid",
+    "color": "error",
+    "hasValue": true
+  },
+  {
+    "id": "petrified",
+    "name": "Окаменел",
+    "description": "Вы превратились в камень. Вы застигнуты врасплох, не можете действовать и ничего не чувствуете.",
+    "icon": "i-heroicons-cube-20-solid",
+    "color": "info",
+    "hasValue": false
+  },
+  {
+    "id": "prone",
+    "name": "Ничком",
+    "description": "Вы лежите. Штраф обстоятельства -2 к броскам атаки. Вы застигнуты врасплох (-2 к КЗ). Единственное доступное движение - Ползти.",
+    "icon": "i-heroicons-arrow-down-circle-20-solid",
+    "color": "info",
+    "hasValue": false
+  },
+  {
+    "id": "quickened",
+    "name": "Ускорен",
+    "description": "Вы получаете 1 дополнительное действие в начале каждого своего хода.",
+    "icon": "i-heroicons-bolt-20-solid",
+    "color": "success",
+    "hasValue": false
+  },
+  {
+    "id": "restrained",
+    "name": "Связан",
+    "description": "Вы застигнуты врасплох и обездвижены. Вы не можете совершать действия кроме Попытки освободиться и Принуждения к освобождению.",
+    "icon": "i-heroicons-lock-closed-20-solid",
+    "color": "error",
+    "hasValue": false
+  },
+  {
+    "id": "sickened",
+    "name": "Болен",
+    "description": "Штраф состояния ко всем проверкам и СЛ. Вы не можете добровольно ничего употреблять. Попытка вызвать рвоту требует действия.",
+    "icon": "i-heroicons-beaker-20-solid",
+    "color": "warning",
+    "hasValue": true
+  },
+  {
+    "id": "slowed",
+    "name": "Замедлен",
+    "description": "Вы получаете на указанное количество действий меньше в начале своего хода.",
+    "icon": "i-heroicons-clock-20-solid",
+    "color": "info",
+    "hasValue": true
+  },
+  {
+    "id": "stunned",
+    "name": "Ошеломлен",
+    "description": "Вы не можете совершать действия. Каждое потерянное действие уменьшает значение ошеломления на 1.",
+    "icon": "i-heroicons-bolt-20-solid",
+    "color": "primary",
+    "hasValue": true
+  },
+  {
+    "id": "stupefied",
+    "name": "Одурманен",
+    "description": "Штраф состояния к проверкам и СЛ на основе Интеллекта, Мудрости и Харизмы. Шанс провалить заклинания.",
+    "icon": "i-heroicons-academic-cap-20-solid",
+    "color": "primary",
+    "hasValue": true
+  },
+  {
+    "id": "unconscious",
+    "name": "Без сознания",
+    "description": "Вы спите или в нокауте. Вы застигнуты врасплох, получаете -4 к КЗ, Восприятию и Спасброскам Рефлекса. Вы ослеплены и ошеломлены.",
+    "icon": "i-heroicons-moon-20-solid",
+    "color": "info",
+    "hasValue": false
+  },
+  {
+    "id": "undetected",
+    "name": "Необнаружен",
+    "description": "Существо знает, что вы где-то рядом, но не знает точного местоположения.",
+    "icon": "i-heroicons-question-mark-circle-20-solid",
+    "color": "info",
+    "hasValue": false
+  },
+  {
+    "id": "unfriendly",
+    "name": "Недружелюбен",
+    "description": "Отношение NPC: существо относится к вам плохо и не склонно помогать.",
+    "icon": "i-heroicons-face-frown-20-solid",
+    "color": "warning",
+    "hasValue": false
+  },
+  {
+    "id": "unnoticed",
+    "name": "Незамечен",
+    "description": "Существо вообще не знает о вашем присутствии.",
+    "icon": "i-heroicons-minus-circle-20-solid",
+    "color": "info",
+    "hasValue": false
+  },
+  {
+    "id": "wounded",
+    "name": "Ранен",
+    "description": "Каждый раз, когда вы получаете состояние При смерти, его значение увеличивается на значение Ранения.",
+    "icon": "i-heroicons-exclamation-triangle-20-solid",
+    "color": "error",
+    "hasValue": true
+  }
+]
