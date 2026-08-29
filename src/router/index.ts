@@ -12,6 +12,11 @@ const router = createRouter({
       name: 'tracker',
       component: () => import('../views/TrackerView.vue'),
     },
+    {
+      path: '/charsheet',
+      name: 'charsheet',
+      component: () => import('../views/CharsheetView.vue'),
+    },
   ],
 })
 

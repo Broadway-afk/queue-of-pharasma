@@ -31,7 +31,7 @@ function updateHtmlClass() {
 
 <template>
   <UApp>
-    <div class="min-h-screen bg-neutral-50 dark:bg-neutral-900 text-neutral-800 dark:text-neutral-200 flex flex-col transition-colors duration-300">
+    <div class="min-h-screen bg-slate-100 dark:bg-stone-950 text-neutral-800 dark:text-neutral-200 flex flex-col transition-colors duration-300">
       <header class="sticky top-0 z-50 w-full border-b border-neutral-200 dark:border-neutral-800 bg-neutral-50/75 dark:bg-neutral-900/75 backdrop-blur">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="flex h-16 items-center justify-between">
@@ -71,6 +71,7 @@ function updateHtmlClass() {
               </div>
               <nav class="hidden md:flex items-center gap-1">
                 <UButton to="/tracker" variant="ghost" color="neutral">Tracker</UButton>
+                <UButton to="/charsheet" variant="ghost" color="neutral">Чарник</UButton>
               </nav>
             </div>
             <div class="flex items-center gap-2">
