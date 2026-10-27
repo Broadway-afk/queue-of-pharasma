@@ -205,7 +205,6 @@ export function normalizeCharsheet(raw: unknown): Charsheet {
       current: toNumber(pick(hitPoints, 'current'), 0),
       temporary: toNumber(pick(hitPoints, 'temporary'), 0),
       dying: toNumber(pick(hitPoints, 'dying'), 0),
-      dyingMax: toNumber(pick(hitPoints, 'dyingMax'), defaults.hitPoints.dyingMax),
       wounded: toNumber(pick(hitPoints, 'wounded'), 0),
       resistancesAndImmunities: toString(pick(hitPoints, 'resistancesAndImmunities'), ''),
       conditions: toString(pick(hitPoints, 'conditions'), '')

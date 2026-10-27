@@ -15,14 +15,13 @@ const sheet = defineModel<Charsheet>({ required: true })
         <NumberField v-model="sheet.hitPoints.temporary" label="Временные" :min="0" />
       </div>
 
-      <div class="grid grid-cols-3 gap-3">
+      <div class="grid grid-cols-2 gap-3">
         <NumberField
           v-model="sheet.hitPoints.dying"
           label="Умирание"
           :min="0"
-          :max="sheet.hitPoints.dyingMax"
+          :max="4"
         />
-        <NumberField v-model="sheet.hitPoints.dyingMax" label="Предел умирания" :min="1" />
         <NumberField v-model="sheet.hitPoints.wounded" label="Ранение" :min="0" />
       </div>
 

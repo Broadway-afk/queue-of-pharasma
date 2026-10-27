@@ -16,7 +16,7 @@ const props = defineProps<{
   <UFormField
     :label="props.label"
     size="sm"
-    :ui="{ label: 'text-[0.65rem] uppercase tracking-wide text-neutral-500' }"
+    :ui="{ root: 'flex flex-col justify-end', label: 'text-[0.65rem] uppercase tracking-wide text-neutral-500' }"
   >
     <UInput
       v-model.number="value"

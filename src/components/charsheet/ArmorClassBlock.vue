@@ -22,10 +22,10 @@ const categoryOptions = ARMOR_CATEGORIES.map((value) => ({
 const dexCapInput = computed<string>({
   get: () => (sheet.value.armorClass.dexCap === null ? '' : String(sheet.value.armorClass.dexCap)),
   set: (raw) => {
-    const trimmed = raw.trim()
-    const parsed = Number(trimmed)
+    const str = String(raw).trim()
+    const parsed = Number(str)
     sheet.value.armorClass.dexCap =
-      trimmed === '' || !Number.isFinite(parsed) ? null : parsed
+      str === '' || !Number.isFinite(parsed) ? null : parsed
   }
 })
 
@@ -52,7 +52,8 @@ function isActive(category: ArmorCategory): boolean {
           >
             <UInput
               v-model="dexCapInput"
-              type="number"
+              type="text"
+              inputmode="numeric"
               placeholder="нет"
               aria-label="Предел бонуса Ловкости от брони"
               :ui="{ base: 'text-center tabular-nums' }"
@@ -82,12 +83,12 @@ function isActive(category: ArmorCategory): boolean {
           :items="categoryOptions"
           value-key="value"
           orientation="horizontal"
-          size="md"
+          size="sm"
           legend="Надетая броня"
           :ui="{
             fieldset: 'flex flex-wrap gap-x-4 gap-y-2',
             legend: 'text-[0.65rem] uppercase tracking-wide text-neutral-500',
-            label: 'py-1.5 cursor-pointer'
+            label: 'cursor-pointer'
           }"
         />
         <ul class="flex flex-col gap-2">

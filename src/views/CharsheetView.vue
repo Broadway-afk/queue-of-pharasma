@@ -52,7 +52,7 @@ function onReset() {
     <div class="charsheet-grid">
       <div class="flex flex-col gap-6">
         <ArmorClassBlock v-model="store.sheet" />
-        <PerceptionBlock v-model="store.sheet" />
+        <SpeedBlock v-model="store.sheet" />
       </div>
       <div class="flex flex-col gap-6">
         <HitPointsBlock v-model="store.sheet" />
@@ -61,7 +61,6 @@ function onReset() {
       <div class="flex flex-col gap-6">
         <PerceptionBlock v-model="store.sheet" />
         <ClassDcBlock v-model="store.sheet" />
-        <SpeedBlock v-model="store.sheet" />
         <LanguagesBlock v-model="store.sheet.languages" />
       </div>
     </div>

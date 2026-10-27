@@ -116,7 +116,6 @@ export function createEmptyCharsheet(): Charsheet {
       current: 0,
       temporary: 0,
       dying: 0,
-      dyingMax: 4,
       wounded: 0,
       resistancesAndImmunities: '',
       conditions: ''

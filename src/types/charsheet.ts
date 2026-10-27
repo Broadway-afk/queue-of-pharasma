@@ -44,7 +44,6 @@ export interface HitPoints {
   current: number
   temporary: number
   dying: number
-  dyingMax: number
   wounded: number
   resistancesAndImmunities: string
   conditions: string
