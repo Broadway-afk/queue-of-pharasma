@@ -86,7 +86,7 @@ function updateHtmlClass() {
                 icon="i-simple-icons-github"
                 color="neutral"
                 variant="ghost"
-                to="https://github.com"
+                to="https://github.com/Broadway-afk/queue-of-pharasma"
                 target="_blank"
                 aria-label="GitHub"
               />

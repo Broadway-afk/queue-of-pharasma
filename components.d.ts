@@ -20,13 +20,7 @@ declare module 'vue' {
     ClassDcBlock: typeof import('./src/components/charsheet/ClassDcBlock.vue')['default']
     ConditionsLibrary: typeof import('./src/components/ConditionsLibrary.vue')['default']
     ConditionTile: typeof import('./src/components/ConditionTile.vue')['default']
-    HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     HitPointsBlock: typeof import('./src/components/charsheet/HitPointsBlock.vue')['default']
-    IconCommunity: typeof import('./src/components/icons/IconCommunity.vue')['default']
-    IconDocumentation: typeof import('./src/components/icons/IconDocumentation.vue')['default']
-    IconEcosystem: typeof import('./src/components/icons/IconEcosystem.vue')['default']
-    IconSupport: typeof import('./src/components/icons/IconSupport.vue')['default']
-    IconTooling: typeof import('./src/components/icons/IconTooling.vue')['default']
     InitiativePawn: typeof import('./src/components/InitiativePawn.vue')['default']
     LanguagesBlock: typeof import('./src/components/charsheet/LanguagesBlock.vue')['default']
     NumberField: typeof import('./src/components/charsheet/NumberField.vue')['default']
@@ -42,7 +36,6 @@ declare module 'vue' {
     StrikeRow: typeof import('./src/components/charsheet/StrikeRow.vue')['default']
     StrikesBlock: typeof import('./src/components/charsheet/StrikesBlock.vue')['default']
     TextField: typeof import('./src/components/charsheet/TextField.vue')['default']
-    TheWelcome: typeof import('./src/components/TheWelcome.vue')['default']
     TotalValue: typeof import('./src/components/charsheet/TotalValue.vue')['default']
     TrackerTableRow: typeof import('./src/components/TrackerTableRow.vue')['default']
     UAccordion: typeof import('./node_modules/@nuxt/ui/dist/runtime/components/Accordion.vue')['default']
@@ -64,6 +57,5 @@ declare module 'vue' {
     UTabs: typeof import('./node_modules/@nuxt/ui/dist/runtime/components/Tabs.vue')['default']
     UTextarea: typeof import('./node_modules/@nuxt/ui/dist/runtime/components/Textarea.vue')['default']
     WeaponProficienciesBlock: typeof import('./src/components/charsheet/WeaponProficienciesBlock.vue')['default']
-    WelcomeItem: typeof import('./src/components/WelcomeItem.vue')['default']
   }
 }
